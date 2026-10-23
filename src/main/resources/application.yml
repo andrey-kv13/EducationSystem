@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: access
+  datasource:
+    url: jdbc:postgresql://localhost:5432/EducationSystem
+    username: postgres
+    password: postgres
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+server:
+  port: 8083
