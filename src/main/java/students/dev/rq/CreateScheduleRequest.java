@@ -1,4 +1,4 @@
-package students.dev.dto;
+package students.dev.rq;
 
 import jakarta.validation.constraints.AssertTrue;
 import jakarta.validation.constraints.NotNull;

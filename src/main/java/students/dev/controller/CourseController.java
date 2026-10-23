@@ -6,11 +6,11 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
-import students.dev.dto.CreateCourseRequest;
-import students.dev.dto.CreateCourseResponse;
+import students.dev.rq.CreateCourseRequest;
+import students.dev.rs.CreateCourseResponse;
 import students.dev.service.CourseService;
 
-@RequestMapping("/api/course")
+@RequestMapping("/api/v1/course")
 @RestController
 @RequiredArgsConstructor
 public class CourseController {

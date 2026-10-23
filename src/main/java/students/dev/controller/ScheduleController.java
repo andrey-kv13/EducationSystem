@@ -6,11 +6,11 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
-import students.dev.dto.CreateScheduleRequest;
-import students.dev.dto.CreateScheduleResponse;
+import students.dev.rq.CreateScheduleRequest;
+import students.dev.rs.CreateScheduleResponse;
 import students.dev.service.ScheduleService;
 
-@RequestMapping("/api/schedule")
+@RequestMapping("/api/v1/schedule")
 @RestController
 @RequiredArgsConstructor
 public class ScheduleController {

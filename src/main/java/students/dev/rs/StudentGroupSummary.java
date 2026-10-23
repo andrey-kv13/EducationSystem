@@ -1,4 +1,4 @@
-package students.dev.dto;
+package students.dev.rs;
 
 public record StudentGroupSummary(
         Long id,

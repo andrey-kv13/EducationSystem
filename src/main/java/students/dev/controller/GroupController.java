@@ -6,11 +6,11 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
-import students.dev.dto.CreateGroupRequest;
-import students.dev.dto.CreateGroupResponse;
+import students.dev.rq.CreateGroupRequest;
+import students.dev.rs.CreateGroupResponse;
 import students.dev.service.GroupService;
 
-@RequestMapping("/api/group")
+@RequestMapping("/api/v1/group")
 @RestController
 @RequiredArgsConstructor
 public class GroupController {

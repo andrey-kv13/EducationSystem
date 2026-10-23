@@ -3,8 +3,8 @@ package students.dev.mapper;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.MappingTarget;
-import students.dev.dto.CreateStudentRequest;
-import students.dev.dto.CreateStudentResponse;
+import students.dev.rq.CreateStudentRequest;
+import students.dev.rs.CreateStudentResponse;
 import students.dev.entity.Student;
 
 @Mapper(componentModel = "spring")

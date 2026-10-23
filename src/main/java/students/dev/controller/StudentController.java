@@ -6,11 +6,11 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
-import students.dev.dto.CreateStudentRequest;
-import students.dev.dto.CreateStudentResponse;
+import students.dev.rq.CreateStudentRequest;
+import students.dev.rs.CreateStudentResponse;
 import students.dev.service.StudentService;
 
-@RequestMapping("/api/student")
+@RequestMapping("/api/v1/student")
 @RestController
 @RequiredArgsConstructor
 public class StudentController {

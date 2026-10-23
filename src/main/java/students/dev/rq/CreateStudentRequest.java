@@ -1,4 +1,4 @@
-package students.dev.dto;
+package students.dev.rq;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotEmpty;

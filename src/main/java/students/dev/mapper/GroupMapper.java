@@ -3,8 +3,8 @@ package students.dev.mapper;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.MappingTarget;
-import students.dev.dto.CreateGroupRequest;
-import students.dev.dto.CreateGroupResponse;
+import students.dev.rq.CreateGroupRequest;
+import students.dev.rs.CreateGroupResponse;
 import students.dev.entity.Group;
 
 @Mapper(componentModel = "spring")

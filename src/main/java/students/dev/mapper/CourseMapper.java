@@ -3,9 +3,9 @@ package students.dev.mapper;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.MappingTarget;
-import students.dev.dto.CourseProfessorSummary;
-import students.dev.dto.CreateCourseRequest;
-import students.dev.dto.CreateCourseResponse;
+import students.dev.rs.CourseProfessorSummary;
+import students.dev.rq.CreateCourseRequest;
+import students.dev.rs.CreateCourseResponse;
 import students.dev.entity.Course;
 import students.dev.entity.Professor;
 

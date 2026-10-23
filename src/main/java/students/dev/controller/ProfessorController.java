@@ -8,11 +8,11 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.http.HttpStatus;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
-import students.dev.dto.CreateProfessorRequest;
-import students.dev.dto.CreateProfessorResponse;
+import students.dev.rq.CreateProfessorRequest;
+import students.dev.rs.CreateProfessorResponse;
 import students.dev.service.ProfessorService;
 
-@RequestMapping("/api/professor")
+@RequestMapping("/api/v1/professor")
 @RestController
 @Validated
 @RequiredArgsConstructor
