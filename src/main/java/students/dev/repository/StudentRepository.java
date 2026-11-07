@@ -1,0 +1,20 @@
+package students.dev.repository;
+
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.jpa.repository.EntityGraph;
+import org.springframework.data.jpa.repository.JpaRepository;
+import students.dev.entity.Student;
+
+import java.util.Optional;
+
+public interface StudentRepository extends JpaRepository<Student, Long> {
+
+    @EntityGraph(attributePaths = "groups")
+    @Override
+    Page<Student> findAll(Pageable pageable);
+
+    @EntityGraph(attributePaths = "groups")
+    @Override
+    Optional<Student> findById(Long id);
+}
